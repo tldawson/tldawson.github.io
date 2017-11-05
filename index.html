@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>home</title>
+    <title>eightzeroes</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/pure-min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: local('Open Sans'), local('OpenSans'), 
+            url(../fonts/OpenSans-Regular.ttf) format('truetype');
+        }
+
+        body {
+            margin-left: 0;
+            padding: 0 10px;
+            text-align: center;
+            line-height: 1.6;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            color: #222;
+            background: #fff;
+        }
+
+        #content {
+            max-width: 50em;
+            margin: auto;
+            text-align: left;
+        }
+    </style>
+
 </head>
 
 <body>
-
     <header>
         <h1>eightzeroes</h1>
         <hr>
@@ -24,8 +48,24 @@
     </header>
 
     <div id="content"></div>
+
+    <noscript id="deferred-styles">
+        <link rel="stylesheet" type="text/css" href="./css/pure-min.css"/>
+    </noscript>
+    <script>
+        var loadDeferredStyles = function() {
+            var addStylesNode = document.getElementById("deferred-styles");
+            var replacement = document.createElement("div");
+            replacement.innerHTML = addStylesNode.textContent;
+            document.body.appendChild(replacement)
+            addStylesNode.parentElement.removeChild(addStylesNode);
+        };
+        var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+            webkitRequestAnimationFrame || msRequestAnimationFrame;
+        if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
+        else window.addEventListener('load', loadDeferredStyles);
+    </script>
     <script src="./js/navigo.min.js"></script>
     <script src="./js/scripts.js"></script>
-
 </body>
 </html>
