@@ -18,13 +18,13 @@ function loadHTML(url, id) {
 router = new Navigo(null, true, '#!');
 router.on({
   // 'content' is the id of the div element inside which we render the HTML
-  'home': () => { loadHTML('./html/home.html', 'content') },
+  'code': () => { loadHTML('./html/code.html', 'content') },
   'blog': () => { loadHTML('./html/blog.html', 'content') },
   'contact': () => { loadHTML('./html/contact.html', 'content') }  
 });
 
 // set the default route
-router.on(() => { loadHTML('./html/home.html', 'content') });
+router.on(() => { loadHTML('./html/code.html', 'content') });
 
 // set the 404 route
 router.notFound((query) => { $id('view').innerHTML = '<h3>Couldn\'t find the page you\'re looking for...</h3>'; })
