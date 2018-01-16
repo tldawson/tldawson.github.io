@@ -4,48 +4,48 @@ https://keybase.io/tldawson
 
 I hereby claim:
 
-  * I am an admin of http://eightzeroes.io
+  * I am an admin of https://eightzeroes.io
   * I am tldawson (https://keybase.io/tldawson) on keybase.
-  * I have a public key ASBoW8tQvZ68ZOytvts_IjwId7f7AmBhOMOOfP64y3Jbgwo
+  * I have a public key ASC0CI_dOb0vBW38VEa5jsGVrofcgaAPlUeuPQaVpgb0xAo
 
 To do so, I am signing this object:
 
 {
   "body": {
     "key": {
-      "eldest_kid": "0120685bcb50bd9ebc64ecadbedb3f223c0877b7fb02606138c38e7cfeb8cb725b830a",
+      "eldest_kid": "0120b4088fdd39bd2f056dfc5446b98ec195ae87dc81a00f9547ae3d0695a606f4c40a",
       "host": "keybase.io",
-      "kid": "0120685bcb50bd9ebc64ecadbedb3f223c0877b7fb02606138c38e7cfeb8cb725b830a",
+      "kid": "0120b4088fdd39bd2f056dfc5446b98ec195ae87dc81a00f9547ae3d0695a606f4c40a",
       "uid": "9265903fa55166e7fac9c868bd7cb919",
       "username": "tldawson"
     },
     "merkle_root": {
-      "ctime": 1515044277,
-      "hash": "6abb38d60b1de7304fd8b7354c33f153f2d511a84f82af3b367307ce4e2926b326f81bc67db74cb0ca6166e83fa3d66385ffded20088ec63fe8493ed30ca1347",
-      "hash_meta": "a51cd8e464ecb9ad94a5695cac7e95ce9740ecd83d1635aed5315287cdf45a43",
-      "seqno": 1885278
+      "ctime": 1516073481,
+      "hash": "5e5cf53a4deb5c019db12de69ac0be35f9217c9ae7ab805ae7c080ca74253d072b6ccc3ed9419fd7ad95832abec5c376a438383a4429580675ead4b713dbdf4c",
+      "hash_meta": "994649d70afd4fde5345196ae3b0d51185ff30cf0db72c3c929f1e36d4969ce6",
+      "seqno": 1931207
     },
     "service": {
       "hostname": "eightzeroes.io",
-      "protocol": "http:"
+      "protocol": "https:"
     },
     "type": "web_service_binding",
     "version": 1
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "1.0.37"
+    "version": "1.0.39"
   },
-  "ctime": 1515044284,
+  "ctime": 1516073507,
   "expire_in": 504576000,
-  "prev": "007ea20d36ac3474ca428f8ae467b8accf2979f1551cf9cf406e9ff5920c2b4f",
-  "seqno": 5,
+  "prev": "35d6903cc7378e0a3364dacae8f56c3286f1794001d67eeadcbccbef668bdd04",
+  "seqno": 18,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgaFvLUL2evGTsrb7bPyI8CHe3+wJgYTjDjnz+uMtyW4MKp3BheWxvYWTFA0V7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjg1YmNiNTBiZDllYmM2NGVjYWRiZWRiM2YyMjNjMDg3N2I3ZmIwMjYwNjEzOGMzOGU3Y2ZlYjhjYjcyNWI4MzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjg1YmNiNTBiZDllYmM2NGVjYWRiZWRiM2YyMjNjMDg3N2I3ZmIwMjYwNjEzOGMzOGU3Y2ZlYjhjYjcyNWI4MzBhIiwidWlkIjoiOTI2NTkwM2ZhNTUxNjZlN2ZhYzljODY4YmQ3Y2I5MTkiLCJ1c2VybmFtZSI6InRsZGF3c29uIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTE1MDQ0Mjc3LCJoYXNoIjoiNmFiYjM4ZDYwYjFkZTczMDRmZDhiNzM1NGMzM2YxNTNmMmQ1MTFhODRmODJhZjNiMzY3MzA3Y2U0ZTI5MjZiMzI2ZjgxYmM2N2RiNzRjYjBjYTYxNjZlODNmYTNkNjYzODVmZmRlZDIwMDg4ZWM2M2ZlODQ5M2VkMzBjYTEzNDciLCJoYXNoX21ldGEiOiJhNTFjZDhlNDY0ZWNiOWFkOTRhNTY5NWNhYzdlOTVjZTk3NDBlY2Q4M2QxNjM1YWVkNTMxNTI4N2NkZjQ1YTQzIiwic2Vxbm8iOjE4ODUyNzh9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZWlnaHR6ZXJvZXMuaW8iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjM3In0sImN0aW1lIjoxNTE1MDQ0Mjg0LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjAwN2VhMjBkMzZhYzM0NzRjYTQyOGY4YWU0NjdiOGFjY2YyOTc5ZjE1NTFjZjljZjQwNmU5ZmY1OTIwYzJiNGYiLCJzZXFubyI6NSwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAamM6CfpD7dSg73mEie4eIlh8kHz+ZxKtghac2xXBHOXIWawRFz0TWVlg2M/hxHSGk4lSLi95QfMgnGXmObzsNqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgdR8LU7GCWGZ4HpSwDgFg0ZM0/FHzSMOPMQk+2fEddwqjdGFnzQICp3ZlcnNpb24B
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgtAiP3Tm9LwVt/FRGuY7Bla6H3IGgD5VHrj0GlaYG9MQKp3BheWxvYWTFA0d7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwYjQwODhmZGQzOWJkMmYwNTZkZmM1NDQ2Yjk4ZWMxOTVhZTg3ZGM4MWEwMGY5NTQ3YWUzZDA2OTVhNjA2ZjRjNDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwYjQwODhmZGQzOWJkMmYwNTZkZmM1NDQ2Yjk4ZWMxOTVhZTg3ZGM4MWEwMGY5NTQ3YWUzZDA2OTVhNjA2ZjRjNDBhIiwidWlkIjoiOTI2NTkwM2ZhNTUxNjZlN2ZhYzljODY4YmQ3Y2I5MTkiLCJ1c2VybmFtZSI6InRsZGF3c29uIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTE2MDczNDgxLCJoYXNoIjoiNWU1Y2Y1M2E0ZGViNWMwMTlkYjEyZGU2OWFjMGJlMzVmOTIxN2M5YWU3YWI4MDVhZTdjMDgwY2E3NDI1M2QwNzJiNmNjYzNlZDk0MTlmZDdhZDk1ODMyYWJlYzVjMzc2YTQzODM4M2E0NDI5NTgwNjc1ZWFkNGI3MTNkYmRmNGMiLCJoYXNoX21ldGEiOiI5OTQ2NDlkNzBhZmQ0ZmRlNTM0NTE5NmFlM2IwZDUxMTg1ZmYzMGNmMGRiNzJjM2M5MjlmMWUzNmQ0OTY5Y2U2Iiwic2Vxbm8iOjE5MzEyMDd9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiZWlnaHR6ZXJvZXMuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zOSJ9LCJjdGltZSI6MTUxNjA3MzUwNywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiIzNWQ2OTAzY2M3Mzc4ZTBhMzM2NGRhY2FlOGY1NmMzMjg2ZjE3OTQwMDFkNjdlZWFkY2JjY2JlZjY2OGJkZDA0Iiwic2Vxbm8iOjE4LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQBpfE0zvNMl22LLMLZxC4El7kKOAMwRDKoqlzoDpn+2/bL2KXIThJE8CM9hqdmQKd2GTgq0vEuQ8lyT65PCytQWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCpx/4mhzxzwdCWnPn60FZQsqOHevpKgimDs/ciM2yMfaN0YWfNAgKndmVyc2lvbgE=
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
